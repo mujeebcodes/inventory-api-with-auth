@@ -1,10 +1,10 @@
 const express = require("express");
-const { checkBody } = require("../middleware/global_middlewares");
-const { validateUser } = require("../middleware/user_middleware");
+const { checkBody } = require("../middleware/middlewares");
+const { validateUserCreation } = require("../middleware/middlewares");
 const { createUser } = require("../controllers/usersControllers");
 
 const router = express.Router();
 
-router.post("/", checkBody, validateUser, createUser);
+router.post("/", checkBody, validateUserCreation, createUser);
 
 module.exports = router;

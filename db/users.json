@@ -1,8 +1,17 @@
 [
   {
+    "username": "ona",
+    "api_key": "332a7b12-5e5d-4440-91ca-5666f3109635",
+    "user_type": "user"
+  },
+  {
+    "username": "jona",
+    "api_key": "91c66f64-6190-4008-9b46-67f4abeacd86",
+    "user_type": "user"
+  },
+  {
     "username": "mujeeb",
-    "password": "wale2010",
-    "api_key": "mujeeb_wale2010",
+    "api_key": "ce516e3d-f222-461d-88b8-776db13ebcd1",
     "user_type": "admin"
   }
 ]
